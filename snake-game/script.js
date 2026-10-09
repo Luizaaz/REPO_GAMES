@@ -149,11 +149,11 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Fundo
-    ctx.fillStyle = "#117a91ff";
+    ctx.fillStyle = "#69d1e8ff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // Grama na parte inferior
-    ctx.fillStyle = "#2f481dff";
+    ctx.fillStyle = "#6cbe32ff";
     ctx.fillRect(0, canvas.height - 60, canvas.width, 60);
 
     // Quadradinhos da grama
@@ -188,7 +188,7 @@ function draw() {
             gridSize
         );
     } else {
-        ctx.fillStyle = "#00d4ff";
+        ctx.fillStyle = "#2cc5e4ff";
         ctx.shadowColor = "#00d4ff";
         ctx.fillRect(portal.pos1 * gridSize, 0, gridSize, 4);
 
